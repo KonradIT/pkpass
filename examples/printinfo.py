@@ -1,5 +1,5 @@
 from pkpass import Pkpass, Airline
-madridToBarcelona = Pkpass("samples/AirEuropaPassbook.pkpass")
+madridToBarcelona = Pkpass("../samples/AirEuropaPassbook.pkpass")
 
 flight = Airline(madridToBarcelona.read())
 print("Boarding time: ", flight.getBoardingTime(parse=True))

@@ -2,7 +2,7 @@ from setuptools import setup
 with open("README.md", "r") as fh:
       long_description = fh.read()
 setup(name='pkpass',
-      version='0.1.0',
+      version='0.1.1',
       description='General-purpose .pkpass file reader, includes airline and train specific parsers',
       url='http://github.com/konradit/pkpass',
       long_description=long_description,
@@ -10,6 +10,6 @@ setup(name='pkpass',
       author='Konrad Iturbe',
       author_email='mail@chernowii.com',
       license='MIT',
-      packages=['pkpass.py'],
+      packages=['pkpass'],
       zip_safe=False)
 
